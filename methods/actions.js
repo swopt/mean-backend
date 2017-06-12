@@ -1,9 +1,10 @@
 var User = require('../model/user');
-var config = require('../config/database');
+var config = require('../config/authconfig');
 var jwt = require('jwt-simple');
 
 var functions = {
-    authenticate: function(req, res) {
+    auth: function(req, res) {
+        /**
         User.findOne({
             name: req.body.name
         }, function(err, user){
@@ -24,7 +25,17 @@ var functions = {
                 })
             }
             
-        })
+        })*/
+    },
+    authSuccess: function(req,res) {
+        return res.json({authSuccess:true,user:req.user,msg: 'Google authentication successful'});
+    },
+    authFailed: function(req,res) {
+        return res.json({authSuccess:false,msg: 'Authentication Failed'});
+    },
+    authLogout: function(req,res) {
+        req.logout();
+        res.redirect('/');
     },
     addNew: function(req, res){
         if((!req.body.name) || (!req.body.password)){
