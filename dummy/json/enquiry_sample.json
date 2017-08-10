@@ -1,0 +1,16 @@
+{"data":{
+        "docHeader": {"docTitle": "AP Account Ledger Enquiry"},
+        "headFields": [
+                {"fieldId":1,"fieldLabel":"Account Name","defaultVal":"ABCDE","type":"text"},
+                {"fieldId":2,"fieldLabel":"Account Date","type":"date"}
+        ],
+        "detFields": [
+                {"fieldId":3,"fieldLabel":"Company Name","defaultVal":"ABCorp","type":"text"},
+                {"fieldId":5,"fieldLabel":"Email","defaultVal":"abcde@email.com","type":"email"},
+                {"fieldId":6,"fieldLabel":"Password","defaultVal":"abcde","type":"password","pattern":".{6,}"}
+        ],
+        "btnFields": [
+                {"fieldId":7,"fieldLabel":"OK","type":"submit"},
+                {"fieldId":8,"fieldLabel":"Cancel"}
+        ]
+}}
