@@ -30,4 +30,6 @@ router.get('/auth/google/callback',
        actions.authSuccess(req,res);
     }
 );
+router.get('/jsonSample',actions.jsonSample);
+router.get('/jsonSampleEnquiry',actions.jsonSampleEnquiry);
 module.exports = router;

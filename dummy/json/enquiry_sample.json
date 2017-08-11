@@ -1,8 +1,8 @@
 {"data":{
         "docHeader": {"docTitle": "AP Account Ledger Enquiry"},
         "headFields": [
-                {"fieldId":1,"fieldLabel":"Account Name","defaultVal":"ABCDE","type":"text"},
-                {"fieldId":2,"fieldLabel":"Account Date","type":"date"}
+                {"fieldId":1,"fieldLabel":"Enquiry Name","defaultVal":"ABCDE","type":"text"},
+                {"fieldId":2,"fieldLabel":"Enquiry Date","type":"date"}
         ],
         "detFields": [
                 {"fieldId":3,"fieldLabel":"Company Name","defaultVal":"ABCorp","type":"text"},
