@@ -84,7 +84,6 @@ var functions = {
         return res.send(json);
     }
     
-    
 }
 
 module.exports = functions;

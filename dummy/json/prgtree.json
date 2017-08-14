@@ -1,0 +1,43 @@
+{
+    "data":[
+    {"prgName":"Account Payable","subs": [
+            {"prgName":"Enquiry","subs": [
+                {"prgName":"Account Ledger Enquiry","route":"enquiry"},
+                {"prgName":"Payment Voucher Enquiry","route":"template"}
+            ]},
+            {"prgName":"Maintenance","subs": [
+                {"prgName":"Account Category Maintenance"},
+                {"prgName":"AP Distribution Setting..."},
+                {"prgName":"Batch Posting Utility"},
+                {"prgName":"Creditor (Company)"},
+                {"prgName":"Creditor (Individual)"}
+            ]}
+        ]},
+        {"prgName":"Account Receivable","subs": [
+            {"prgName":"Enquiry","subs": [
+                {"prgName":"Account Ledger Enquiry"},
+                {"prgName":"Payment Voucher Enquiry"}
+            ]},
+            {"prgName":"Maintenance","subs": [
+                {"prgName":"Account Category Maintenance"},
+                {"prgName":"AP Distribution Setting..."},
+                {"prgName":"Batch Posting Utility"},
+                {"prgName":"Creditor (Company)"},
+                {"prgName":"Creditor (Individual)"}
+            ]}
+        ]},
+        {"prgName":"Cash Management","subs": [
+            {"prgName":"Enquiry","subs": [
+                {"prgName":"Account Ledger Enquiry"},
+                {"prgName":"Payment Voucher Enquiry"}
+            ]},
+            {"prgName":"Maintenance","subs": [
+                {"prgName":"Account Category Maintenance"},
+                {"prgName":"AP Distribution Setting..."},
+                {"prgName":"Batch Posting Utility"},
+                {"prgName":"Creditor (Company)"},
+                {"prgName":"Creditor (Individual)"}
+            ]}
+        ]}
+    ]
+}

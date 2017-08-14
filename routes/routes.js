@@ -1,5 +1,6 @@
 var express = require('express');
 var actions = require('../methods/actions');
+var prgtree = require('../methods/prgtree');
 
 var router = express.Router();
 
@@ -32,4 +33,5 @@ router.get('/auth/google/callback',
 );
 router.get('/jsonSample',actions.jsonSample);
 router.get('/jsonSampleEnquiry',actions.jsonSampleEnquiry);
+router.get('/prgtree',prgtree.getPrgs);
 module.exports = router;
