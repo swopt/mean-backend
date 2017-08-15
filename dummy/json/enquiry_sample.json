@@ -1,8 +1,12 @@
 {"data":{
-        "docHeader": {"docTitle": "AP Account Ledger Enquiry"},
+        "docHeader": {"docTitle": "AP Account Ledger Enquiry",
+                "idField": {"fieldLabel":"Account No.","type":"search"}
+        },
         "headFields": [
-                {"fieldId":1,"fieldLabel":"Enquiry Name","defaultVal":"ABCDE","type":"text"},
-                {"fieldId":2,"fieldLabel":"Enquiry Date","type":"date"}
+                {"fieldId":1,"fieldLabel":"Account Name","defaultVal":"ABCDE","type":"text","disabled":true},
+                {"fieldId":2,"fieldLabel":"Remarks","disabled":true},
+                {"fieldId":2,"fieldLabel":"Account Status","defaultVal":"Active"},
+                {"fieldId":2,"fieldLabel":"Term (days)","type":"number","disabled":true}
         ],
         "detFields": [
                 {"fieldId":3,"fieldLabel":"Company Name","defaultVal":"ABCorp","type":"text"},

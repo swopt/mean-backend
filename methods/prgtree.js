@@ -15,7 +15,7 @@ var dbConfig = {
 var functions = {
     getPrgs: function(req,res){
        new sql.ConnectionPool(dbConfig).connect().then(pool => {
-            return pool.request().query("select * from prg_profile where subs_code != 'SY'")
+            return pool.request().query("select * from prg_profile where subs_code != 'SY' order by subs_code,prg_type,prg_name")
             }).then(result => {
                 let rows = result.recordset
                 var prgtrees = new Prgtrees(rows);
