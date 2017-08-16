@@ -5,7 +5,7 @@ var dbConfig = {
     server: 'dbserv',
     database: 'FISMAF313GST',
     user: 'fisdbadmin',
-    password: 'fis',
+    password: 'fis159',
     options: {
         instanceName: 'sql2k8',
         trustedConnection: true
@@ -22,7 +22,9 @@ var functions = {
                 res.status(200).json(prgtrees);
                 sql.close();
             }).catch(err => {
-                res.status(500).send({ message: err})
+                console.log('Database connection error. Using predefined program list.')
+                var prgprof = require('../dummy/json/prgprof.json');
+                res.status(200).json(prgprof);
                 sql.close();
             });
     }

@@ -8,7 +8,13 @@
                 {"fieldId":2,"fieldLabel":"Account Status","defaultVal":"Active"},
                 {"fieldId":2,"fieldLabel":"Term (days)","type":"number","disabled":true}
         ],
-        "detFields": [
+        "detFields1": [
+                {"fieldLabel":"Transaction Ledger","htmlTag":"md-tab","subField":[{"htmlTag":"table"}]},
+                {"fieldId":3,"fieldLabel":"Company Name","defaultVal":"ABCorp","type":"text"},
+                {"fieldId":5,"fieldLabel":"Email","defaultVal":"abcde@email.com","type":"email"},
+                {"fieldId":6,"fieldLabel":"Password","defaultVal":"abcde","type":"password","pattern":".{6,}"}
+        ],
+        "detFields2": [
                 {"fieldId":3,"fieldLabel":"Company Name","defaultVal":"ABCorp","type":"text"},
                 {"fieldId":5,"fieldLabel":"Email","defaultVal":"abcde@email.com","type":"email"},
                 {"fieldId":6,"fieldLabel":"Password","defaultVal":"abcde","type":"password","pattern":".{6,}"}
