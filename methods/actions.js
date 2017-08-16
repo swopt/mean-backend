@@ -82,6 +82,10 @@ var functions = {
     jsonSampleEnquiry: function(req, res){
         var json = require('../dummy/json/enquiry_sample.json');
         return res.send(json);
+    },
+    dummyTable1: function(req, res){
+        var json = require('../dummy/json/dummytable1.json');
+        return res.send(json);
     }
     
 }
