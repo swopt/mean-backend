@@ -31,8 +31,6 @@ router.get('/auth/google/callback',
        actions.authSuccess(req,res);
     }
 );
-router.get('/jsonSample',actions.jsonSample);
-router.get('/jsonSampleEnquiry',actions.jsonSampleEnquiry);
 router.get('/prgtree',prgtree.getPrgs);
-router.get('/dummytable1',actions.dummyTable1);
+router.get('/json/:name',actions.json);
 module.exports = router;

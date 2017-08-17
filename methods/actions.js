@@ -75,17 +75,10 @@ var functions = {
         return res.json({success:true,msg: 'FIS Authentication Server'});
     },
 
-    jsonSample: function(req, res){
-        var json = require('../dummy/json/template.json');
-        return res.send(json);
-    },
-    jsonSampleEnquiry: function(req, res){
-        var json = require('../dummy/json/enquiry_sample.json');
-        return res.send(json);
-    },
-    dummyTable1: function(req, res){
-        var json = require('../dummy/json/dummytable1.json');
-        return res.send(json);
+    json: function(req, res){
+        var name = req.params.name;
+        var jsonFile = require('../dummy/json/'+name+'.json');
+        return res.send(jsonFile);
     }
     
 }

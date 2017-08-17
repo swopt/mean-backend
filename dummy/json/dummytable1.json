@@ -1,6 +1,12 @@
-{"data": [
-    {"Date":"01/08/2007","Item":"Asus Laptop","Amount":1500.00},
-    {"Date":"02/08/2007","Item":"Dell Desktop Computer","Amount":2550.50},
-    {"Date":"02/08/2007","Item":"Corsair RAM Module","Amount":255.59},
-    {"Date":"03/08/2007","Item":"Logitech Mouse","Amount":59.99}
-]}
+{"data": [{
+    "columns":[
+        {"colName":"Date","colId":1},{"colName":"Item","colId":2},
+        {"colName":"Amount","colId":3}
+    ],
+    "tableData":[
+        {"1":"01/08/2007","2":"Asus Laptop","3":1500.00},
+        {"1":"02/08/2007","2":"Dell Desktop Computer","3":2550.50},
+        {"1":"02/08/2007","2":"Corsair RAM Module","3":255.59},
+        {"1":"03/08/2007","2":"Logitech Mouse","3":59.99}
+    ]
+}]}
