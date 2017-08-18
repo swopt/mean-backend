@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rajayogan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jwt-simple": "^0.5.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0"
+  }
 }

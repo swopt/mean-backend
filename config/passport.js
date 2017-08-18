@@ -7,7 +7,7 @@ var GoogleStrategy = require('passport-google-oauth2').Strategy;
 module.exports = function(passport) {
      var  opts = {};
     opts.secretOrKey =  config.secret;
-    opts.jwtFromRequest = ExtractJwt.fromAuthHeader();
+    opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
     passport.use(new JwtStrategy(opts, function(jwt_payload, done){
         return User.find({id: jwt_payload.id}, function(err, user){
             if (err) {
