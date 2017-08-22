@@ -1,12 +1,20 @@
 {"data": [{
     "columns":[
-        {"colName":"Date","colId":1},{"colName":"Item","colId":2},
-        {"colName":"Amount","colId":3}
+        {"colName":"Document Date","colId":1},{"colName":"Transaction Date","colId":2},
+        {"colName":"Transaction Reference","colId":3},{"colName":"Document Type","colId":4},
+        {"colName":"Debit","colId":5},{"colName":"Credit","colId":6},
+        {"colName":"Account Balance","colId":7},
+        {"colName":"Currency Code","colId":8},
+        {"colName":"Currency Rate","colId":9},
+        {"colName":"Exchange Unit","colId":10},
+        {"colName":"Currency Debit","colId":11},
+        {"colName":"Currency Credit","colId":12}
+
     ],
     "tableData":[
-        {"1":"01/08/2007","2":"Asus Laptop","3":1500.00},
-        {"1":"02/08/2007","2":"Dell Desktop Computer","3":2550.50},
-        {"1":"02/08/2007","2":"Corsair RAM Module","3":255.59},
-        {"1":"03/08/2007","2":"Logitech Mouse","3":59.99}
+        {"1":"01/08/2017","2":"01/08/2017","3":"MC/AP/INV/17/08-012","4":"AP Invoice","5":0,"6":504.56,"7":504.56,"8":"MYR","9":1,"10":1,"11":0,"12":504.56},
+        {"1":"02/08/2017","2":"02/08/2017","3":"MC/AP/INV/JV/08-015","4":"AP Journal Voucher","5":504.56,"6":0,"7":0,"8":"MYR","9":1,"10":1,"11":504.56,"12":0},
+        {"1":"04/08/2017","2":"04/08/2017","3":"MC/AP/INV/17/08-022","4":"AP Invoice","5":0,"6":134.96,"7":134.96,"8":"MYR","9":1,"10":1,"11":0,"12":134.96},
+        {"1":"04/08/2017","2":"05/08/2017","3":"MC/AP/INV/JV/08-032","4":"AP Journal Voucher","5":889.88,"6":0,"7":0,"8":"MYR","9":1,"10":1,"11":889.88,"12":0}
     ]
 }]}

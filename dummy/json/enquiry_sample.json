@@ -1,26 +1,14 @@
 {"data":{
-        "docHeader": {"docTitle": "AP Account Ledger Enquiry",
-                "idField": {"fieldLabel":"Account No.","type":"search"}
-        },
+        "docHeader": {"docTitle": "AP Account Ledger Enquiry"},
         "headFields": [
-                {"fieldId":1,"fieldLabel":"Account Name","defaultVal":"ABCDE","type":"text","disabled":true},
-                {"fieldId":2,"fieldLabel":"Remarks","disabled":true},
-                {"fieldId":2,"fieldLabel":"Account Status","defaultVal":"Active"},
-                {"fieldId":2,"fieldLabel":"Term (days)","type":"number","disabled":true}
+                {"key":"accname","label":"Account Name","controlType":"textbox","required":true,"order":1},
+                {"key":"remark","label":"Remark","controlType":"textbox","order":2},
+                {"key":"accstatus","label":"Account Status","value":"active","controlType":"textbox","order":3},
+                {"key":"term","label":"Term (days)","type":"number","controlType":"textbox","order":4}
         ],
-        "detFields1": [
-                {"fieldLabel":"Transaction Ledger","htmlTag":"md-tab","subField":[{"htmlTag":"table"}]},
-                {"fieldId":3,"fieldLabel":"Company Name","defaultVal":"ABCorp","type":"text"},
-                {"fieldId":5,"fieldLabel":"Email","defaultVal":"abcde@email.com","type":"email"},
-                {"fieldId":6,"fieldLabel":"Password","defaultVal":"abcde","type":"password","pattern":".{6,}"}
-        ],
-        "detFields2": [
-                {"fieldId":3,"fieldLabel":"Company Name","defaultVal":"ABCorp","type":"text"},
-                {"fieldId":5,"fieldLabel":"Email","defaultVal":"abcde@email.com","type":"email"},
-                {"fieldId":6,"fieldLabel":"Password","defaultVal":"abcde","type":"password","pattern":".{6,}"}
-        ],
-        "btnFields": [
-                {"fieldId":7,"fieldLabel":"OK","type":"submit"},
-                {"fieldId":8,"fieldLabel":"Cancel"}
+        "detFields": [
+                {"key":"comname","label":"Company Name","value":"ABCorp","order":1},
+                {"key":"email","label":"Email","type":"email","order":2},
+                {"key":"password","label":"Password","type":"password","order":3}
         ]
 }}

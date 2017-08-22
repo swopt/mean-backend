@@ -1,16 +1,12 @@
 {"data":{
         "docHeader": {"docTitle": "FIS Template Example"},
         "headFields": [
-                {"fieldId":1,"fieldLabel":"Account Name","defaultVal":"ABCDE","type":"text"},
-                {"fieldId":2,"fieldLabel":"Account Date","type":"date"}
+                {"key":"accname","label":"Account Name","required":true,"controlType":"textbox","order":1},
+                {"key":"accdate","label":"Account Date","controlType":"textbox","order":2}
         ],
         "detFields": [
-                {"fieldId":3,"fieldLabel":"Company Name","defaultVal":"ABCorp","type":"text"},
-                {"fieldId":5,"fieldLabel":"Email","defaultVal":"abcde@email.com","type":"email"},
-                {"fieldId":6,"fieldLabel":"Password","defaultVal":"abcde","type":"password","pattern":".{6,}"}
-        ],
-        "btnFields": [
-                {"fieldId":7,"fieldLabel":"OK","type":"submit"},
-                {"fieldId":8,"fieldLabel":"Cancel"}
+                {"key":"comname","label":"Company Name","value":"ABCorp","controlType":"textbox","order":1},
+                {"key":"email","label":"Email","type":"email","controlType":"textbox","order":2},
+                {"key":"password","label":"Password","type":"password","controlType":"textbox","order":3}
         ]
 }}
