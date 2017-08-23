@@ -3,7 +3,7 @@
         "headFields": [
                 {"key":"accname","label":"Account Name","controlType":"textbox","required":true,"order":1},
                 {"key":"remark","label":"Remark","controlType":"textbox","order":2},
-                {"key":"accstatus","label":"Account Status","value":"active","controlType":"textbox","order":3},
+                {"key":"accstatus","label":"Account Status","value":"Active","controlType":"dropdown","options":[{"key":"active","value":"Active"},{"key":"dactive","value":"Deactivated"}],"order":3},
                 {"key":"term","label":"Term (days)","type":"number","controlType":"textbox","order":4}
         ],
         "detFields": [

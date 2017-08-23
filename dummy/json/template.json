@@ -2,7 +2,7 @@
         "docHeader": {"docTitle": "FIS Template Example"},
         "headFields": [
                 {"key":"accname","label":"Account Name","required":true,"controlType":"textbox","order":1},
-                {"key":"accdate","label":"Account Date","controlType":"textbox","order":2}
+                {"key":"accdate","label":"Account Date","controlType":"textbox","type":"date","order":2}
         ],
         "detFields": [
                 {"key":"comname","label":"Company Name","value":"ABCorp","controlType":"textbox","order":1},
