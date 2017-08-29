@@ -2,12 +2,12 @@
         "docHeader": {"docTitle": "FIS Template Example"},
         "headColumns": [
                 {"headFields":[
-                        {"key":"accname","label":"Account Name","required":true,"controlType":"textboxauto","order":1},
-                        {"key":"accdate","label":"Account Date","controlType":"textbox","type":"date","order":2}
+                        {"key":"accName","label":"Account Name","required":true,"controlType":"textboxauto","order":1},
+                        {"key":"accDate","label":"Account Date","controlType":"textbox","type":"date","order":2}
                 ]}
         ],
         "detFields": [
-                {"key":"comname","label":"Company Name","value":"ABCorp","controlType":"textbox","order":1},
+                {"key":"comName","label":"Company Name","value":"ABCorp","controlType":"textbox","order":1},
                 {"key":"email","label":"Email","type":"email","controlType":"textbox","order":2},
                 {"key":"password","label":"Password","type":"password","controlType":"textbox","order":3}
         ]

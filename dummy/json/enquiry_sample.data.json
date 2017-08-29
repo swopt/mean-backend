@@ -1,0 +1,12 @@
+{"data":[
+        {"accName":"ABCorp",
+        "remark":"The quick brown fox jumps over the lazy dog.",
+        "accStatus":"Active",
+        "term":30,
+        "dateCreate":"27/08/2017",
+        "credLimit":300,
+        "credAvail":10,
+        "debBal":19.80,
+        "credBal":20.55,
+        "outBal":89.56}
+]}
