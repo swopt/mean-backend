@@ -1,4 +1,7 @@
 {"data":[
     {"accNo":"AIR02-01","accName":"AirAsia Berhad","orgnName":"Mafrica Corporation - M00 (Sibu HQ)","orgnCode":"M00","nature":"Credit"},
-    {"accNo":"MAL04-01","accName":"Malaysia Airlines Berhad","orgnName":"Mafrica Corporation - M00 (Sibu HQ)","orgnCode":"M00","nature":"Credit"}
+    {"accNo":"MAL04-01","accName":"Malaysia Airlines Berhad","orgnName":"Mafrica Corporation - M00 (Sibu HQ)","orgnCode":"M00","nature":"Credit"},
+    {"accNo":"MAL05-01","accName":"Firefly","orgnName":"Mafrica Corporation - M00 (Sibu HQ)","orgnCode":"M00","nature":"Credit"},
+    {"accNo":"MAL06-01","accName":"MASWings","orgnName":"Mafrica Corporation - M00 (Sibu HQ)","orgnCode":"M00","nature":"Credit"},
+    {"accNo":"RAY04-01","accName":"Raya Airways","orgnName":"Mafrica Corporation - M00 (Sibu HQ)","orgnCode":"M00","nature":"Credit"}
 ]}
