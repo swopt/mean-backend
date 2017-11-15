@@ -1,0 +1,10 @@
+{"data":{
+        "formGroups":[
+                {
+                        "title":"Concept Test",
+                        "controlItems":[
+                                {"key":"accName","label":"Account Name","controlType":"textbox","required":true,"order":1}
+                        ]
+                }
+        ]
+}}
