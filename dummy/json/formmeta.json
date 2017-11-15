@@ -2,9 +2,18 @@
         "formTitle": "Dummy Form",
         "formGroups":[
                 {
-                        "title":"Concept Test",
+                        "title":"Form Group 1",
                         "controlItems":[
-                                {"key":"accName","label":"Account Name","controlType":"textbox","required":true,"order":1}
+                                {"key":"accName","label":"Account Name","controlType":"textbox","required":true},
+                                {"key":"remark","label":"Remark","controlType":"textarea"},
+                                {"key":"accStatus","label":"Account Status","value":"Active","controlType":"dropdown","options":[{"key":"active","value":"Active"},{"key":"dactive","value":"Deactivated"}]},
+                                {"key":"term","label":"Term (days)","type":"number","step":0.01,"controlType":"textbox"},
+                                {"key":"dateCreate","label":"Date Created","controlType":"textbox","type":"date"},
+                                {"key":"credLimit","label":"Credit Limit","controlType":"textbox","type":"number","step":0.01},
+                                {"key":"credAvail","label":"Credit Available","controlType":"textbox","type":"number","step":0.01},
+                                {"key":"debBal","label":"Debit Balance","controlType":"textbox","type":"number","step":0.01},
+                                {"key":"credBal","label":"Credit Balance","controlType":"textbox","type":"number","step":0.01},
+                                {"key":"outBal","label":"Outstanding Balance","controlType":"textbox","type":"number","step":0.01}
                         ]
                 }
         ]
