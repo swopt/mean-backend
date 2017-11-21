@@ -4,6 +4,7 @@
                 {
                         "title":"Form Group 1",
                         "controlItems":[
+                                {"key":"accCode","label":"Account Code","controlType":"textboxauto","required":true,"options":[{"key":"a0001","value":"A00001"},{"key":"a0002","value":"A00002"}]},
                                 {"key":"accName","label":"Account Name","controlType":"textbox","required":true},
                                 {"key":"remark","label":"Remark","controlType":"textarea"},
                                 {"key":"accStatus","label":"Account Status","value":"Active","controlType":"dropdown","options":[{"key":"active","value":"Active"},{"key":"dactive","value":"Deactivated"}]},
